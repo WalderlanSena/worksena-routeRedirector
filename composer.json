@@ -1,0 +1,22 @@
+{
+    "name": "mvs/worksena-route-redirector",
+    "description": "Gerenciador de redirecionamento worksena",
+    "type": "library",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "Walderlan Sena",
+            "email": "senawalderlan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "mvs/worksena-session": ">=1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WS\\RouterRedirector\\": "src/"
+        }
+    }
+}
